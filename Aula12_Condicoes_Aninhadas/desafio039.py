@@ -35,7 +35,7 @@ lista = [tupla_data_atual]
 
 print(tupla_data_atual.year())
 
-tupla_data_atual.
+
 
 
 

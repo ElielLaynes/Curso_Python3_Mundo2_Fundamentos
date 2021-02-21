@@ -16,9 +16,9 @@
                APROVADO
 '''
 
-print()
-print('=======> Saiba se você Está Reprovado ou Não! <=========')
-print()
+
+print('\n \033[1m =======> Saiba se você Está Reprovado ou Não! <========= \033[m \n')
+
 
 nota1 = float ( input( 'Digite a Primeira Nota: ' ) )
 nota2 = float ( input ( 'Digite a Segunda Nota: ' ) )

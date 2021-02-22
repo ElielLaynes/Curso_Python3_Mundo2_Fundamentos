@@ -61,3 +61,4 @@ else:
 
 
 
+print( ' \033[7;40m Obriado Por Usar Meu Programa! \033[m  \033[1;31;40m <3 \033[m \n')

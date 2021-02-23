@@ -12,14 +12,10 @@
 
 resp = 'S'
 
-soma = 0
-quant = 0
-media = 0
-maior = 0 
-menor = 0
+soma = quant = media = maior = menor = 0
 
 while resp in 'Ss':
-    num = int ( input( 'Digite um Número: ' )
+    num = int ( input ( 'Digite um Número: ' ) )
     soma += num
     quant += 1
     if quant == 1:
@@ -29,8 +25,10 @@ while resp in 'Ss':
             maior = num
         if num < menor:
             menor = num
-    resp = str ( input ( 'Quer Continuar? [S/N]' ) ).upper().strip()[0]
-    media = soma / quant
 
-print(f'Você digitou {quant} números e a média foi: {media}')
-print(f'O Maior valor: {maior}. O menor Valor: {menor}')
+    resp = str ( input ( 'Quer Continuar? [S?N] ' ) ).upper().strip()[0]
+
+media = soma / quant
+
+print(f'Você Digitou {quant} números e a Média foi: {media:.2f}')
+print(f'O Maior valor foi: {maior} e o Menor foi: {menor}')

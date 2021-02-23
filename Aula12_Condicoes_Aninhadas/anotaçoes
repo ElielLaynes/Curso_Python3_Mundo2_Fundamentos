@@ -1,0 +1,14 @@
+                        >>>> ESTRUTURA CONDICIONAL ANINHADA  <<<< 
+
+Para montar uma estrutura condicional aninha em python, se usa a palavra elif, que quer dizer basicamente senão se
+
+Exemplo:
+
+        if condição 1:
+            bloco 1
+        elif condição 2:
+            bloco 2
+        elif condição 3:
+            bloco 3
+        else:
+            bloco 3

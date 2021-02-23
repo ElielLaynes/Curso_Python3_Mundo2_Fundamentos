@@ -65,7 +65,6 @@ While funciona com condifionais if para que possamos colocar diversas excessões
 
 
 
-
 # usando WHILE sabendo os Limite
 
 contador = 1
@@ -110,3 +109,30 @@ while num != 0:
         else:
             impar +=1
 print(f'Você Digitou {par} pares e {impar} Ímpares')
+
+
+# Estrutura de repetição WHILE com BREAK
+'''
+while True:
+    if tem chao
+        passo
+    if tem buraco
+        pula
+    if tem moeda
+        pega 
+    if tem trofeu
+        pula
+        break
+pega 
+'''
+
+# While com True form um loop infinito
+
+n = s = 0
+
+while True:
+    n = int (input('Digite um Número: '))
+    if n == 999:
+        break
+    s += n
+print(f'A soma vale : {s}')
